@@ -1,0 +1,14 @@
+1) design a system for mannagin order, and inventory of a pizza store. 
+    01) there are 3 types of pizza which you can order: 
+        01) olivers, mashrooms, pineapple.
+    02) the order pizza button on the order page will be active only if all its ingrident are in stock.
+        01) when the ingrident for all types of pizza will ran out of stock the store will be closed and display message to the costumers saying that.
+
+    03) the basic ingridient for all types of pizza: 
+        01) 1/2 kilo flour.
+        02) 1/2 Kilo cheese.
+        03) 1/5 killo tomatos. 
+    04) on top of the Pizza there will be one of the following topping: 
+        01) olives pizza - 300 gram olives.
+        02) mashrums pizza - 200 gram mashrums.
+        03) pineaple pizza - 100 gram pineapple.
