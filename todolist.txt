@@ -1,7 +1,8 @@
+
 1) design a system for mannagin order, and inventory of a pizza store. 
     01) there are 3 types of pizza which you can order: 
-        01) olivers, mashrooms, pineapple.
-    02) the order pizza button on the order page will be active only if all its ingrident are in stock.
+        01) olives, mashrooms, pineapple.
+    02) the order pizza button on the order page will be active only if all the pizza ingrident are in stock, else the button wont be active.
         01) when the ingrident for all types of pizza will ran out of stock the store will be closed and display message to the costumers saying that.
 
     03) the basic ingridient for all types of pizza: 
@@ -12,3 +13,30 @@
         01) olives pizza - 300 gram olives.
         02) mashrums pizza - 200 gram mashrums.
         03) pineaple pizza - 100 gram pineapple.
+
+THE ORDER PAGE
+    on the orders page a photo of the 3 types of pizza will be displayed, under each photo there will be the pizza price and the order button. 
+    double clicking that button will create another order. 
+    beneath the pizza photos there will be a current order list, displaying the pizza that was orderd and its price near it. 
+    the total order price will be displayed int he bottom of the list, nearby a "confirm order" button.
+    once the confirm order is pressed the ingridents of that order should be removed from the stock of inventory. 
+    and a message shall be displayed to the customer with his order number. 
+    
+THE INVENTORY PAGE 
+this page will display the current stock of inventory. 
+and the entire orders history.
+בעמוד זה יוצאו מצב המלאי והסטוריית ההזמנית בצד אחד של המסך יוצג המלאי הנוכחי, מהיא הכמות שנשארה מכל סוג של מרכיב. 
+ובצד השני של המסך תוצג הסטוריית ההזמנות של הלקוחות הכוללת שעה תאריך מספר הזמנה ופירוט ההזמנה. 
+בתחתית העמוד יופיע כפתור רענון שמביא את הנתונים מהשרת מחדש ללא רענון הדף ! 
+
+המלאי ההתחלתי של המרכיבים שאיתם המערכת מתחילה לעבוד: 
+10 קילו קמח 
+5 קילו  גבינה 
+3 קילו עגבניות 
+3 קילו פטריות 
+1 קילו אננס
+10 קילו זיתים 
+דגש: שום פרט לא ינוהל באופן סטטי, אלה ב דטהבייס. 
+
+
+בנה רק את ה backend !! 
